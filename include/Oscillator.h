@@ -27,8 +27,8 @@ public:
 
 private:
     OscWaveform _currType;
+    float       _sr;
     float       _freq;
     float       _phase;
-    float       _sr;
 };
 

@@ -32,10 +32,10 @@ private:
     int     _wp;
 
     // User-adjustable parameters:
+    float _feedback;    // 0-1 feedback percentage
+    float _mix;         // 0-1 wet dry mix percentagewidth
     float _lfoFreq;     // Frequency of the LFO
     float _lfoWidth;    // Width of the LFO in samples
-    float _mix;         // 0-1 wet dry mix percentagewidth
-    float _feedback;    // 0-1 feedback percentage
     float _sr;
 
     float _ph; // REPLACE with LFO obj

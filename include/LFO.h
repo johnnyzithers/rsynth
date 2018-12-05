@@ -30,11 +30,11 @@ public:
     double getDepth();
 
 private:
-    LfoType _currType;
-    double   _phase;
+    float    _sr;
     double   _freq;
     double   _depth;
-    float    _sr;
+    double   _phase;
+    LfoType _currType;
 };
 
 
